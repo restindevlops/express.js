@@ -1,0 +1,36 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.main-header {
+    width:100%;
+    height:5-8rem;
+    background-color: yellow;
+}
+
+.main-header_nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.main-header_item-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.main-header_item {
+    margin: 0 1rem;
+    padding: 0;
+}
+.main-header_item a {
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+
+.main-header_item a:hover,
+.main-header_item a:active,
+.main-header_item a:active{
+    color: #6200ff;
+}
